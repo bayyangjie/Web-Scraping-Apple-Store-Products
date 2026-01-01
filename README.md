@@ -3,15 +3,14 @@ This project is about scraping data about apple store products from the Apple St
 
 The scrapped data is then exported to a excel csv file for analysis.
 
-Tools used:
-Visual Studio
+Tools used: <br>
+- Visual Studio
 
-Libraries used:
-Beautiful Soup <br>
->> Used for reading the html content from the site and convert the data into a structured tree format. 
+Libraries used: <br>
+- Beautiful Soup - For reading the html content from the site and convert the data into a structured tree format. 
 
-Extensions installed:
-Used an extension 'Live Server' to view the actual webpage after loading the html file "apple_store.html" in Visual Studio.
+Extensions installed: <br>
+- Live Server' - For viewing the actual webpage after loading the html file "apple_store.html" in Visual Studio.
 
 ## Creating a virtual environment 
 A virtual environment (venv) is created for working within that space for the project. Libraries/dependencies are all installed specifically for the project only. 

@@ -7,7 +7,8 @@ Tools used:
 Visual Studio
 
 Libraries used:
-Beautiful Soup is used for reading the html content from the site and convert the data into a structured tree format. 
+Beautiful Soup <br>
+>> Used for reading the html content from the site and convert the data into a structured tree format. 
 
 Extensions installed:
 Used an extension 'Live Server' to view the actual webpage after loading the html file "apple_store.html" in Visual Studio.

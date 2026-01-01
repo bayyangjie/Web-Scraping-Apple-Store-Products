@@ -9,7 +9,8 @@ Used Visual Studio extension 'Live Server' to view the actual webpage after load
 
 ## Creating a virtual environment 
 A virtual environemnt (venv) is created for working within that space for the project. Libraries/dependencies are all stored inside this space specifically for the project only. 
-```
+
+```python
 # Create virtual environment
 python3 -m venv ws_env
 

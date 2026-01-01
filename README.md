@@ -1,5 +1,5 @@
 # Web Scraping of Apple Store Products
-This web scraping project involves scraping data about apple store products from the HTML webpage. Data points that are scrapped include product description, ratings, price, quantity, shipping date.
+This project is about scraping data about apple store products from the Apple Store HTML webpage. Data points that are scrapped include product description, ratings, price, quantity, shipping date.
 
 The scrapped data is then exported to a excel csv file for analysis.
 

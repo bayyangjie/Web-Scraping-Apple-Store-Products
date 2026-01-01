@@ -24,6 +24,9 @@ source ws_env/bin/activate
 ```
 
 ## Importing HTML data from local directory
+Loading the HTML file from local directory and opening it in only in read mode.
+
+'with' is used to close the file once the data is fully loaded into the variable 'html_content'.
 
 ```python
 # URL source path

@@ -5,6 +5,8 @@ The scrapped data is then exported to a excel csv file for analysis.
 
 Beautiful Soup is used for reading the html content from the site and convert the data into a structured tree format. 
 
+Used Visual Studio extension 'Live Server' to view the actual webpage after loading the html file "apple_store.html" in Visual Studio.
+
 ## Importing the HTML data as read mode
 
 ```python

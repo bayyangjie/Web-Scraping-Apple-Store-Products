@@ -23,7 +23,7 @@ python3 -m venv ws_env
 source ws_env/bin/activate
 ```
 
-## Importing the HTML data as read mode
+## Importing HTML data from local directory
 
 ```python
 # URL source path

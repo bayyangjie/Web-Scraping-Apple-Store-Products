@@ -65,9 +65,11 @@ with open('apple_products.csv', 'w') as file_csv:     # 'w' is to write/replace 
         # Pushing in the data as rows 
         ## must be inside the for loop to get info from ALL containers and pass the new column headers in as actual variable names without string quotes
         writer.writerow([product_name, price, qty_left, ratings, est])
-```
 
 print("Congratulations data scrapped and save successsfully")
+```
+
+
 
 
 ## Conclusion

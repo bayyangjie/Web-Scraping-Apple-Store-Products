@@ -7,9 +7,20 @@ Beautiful Soup is used for reading the html content from the site and convert th
 
 Used Visual Studio extension 'Live Server' to view the actual webpage after loading the html file "apple_store.html" in Visual Studio.
 
+## Creating a virtual environment 
+A virtual environemnt (venv) is created for working within that space for the project. Libraries/dependencies are all stored inside this space specifically for the project only. 
+```
+# Create virtual environment
+python3 -m venv ws_env
+
+# Activating the virtual environemnt
+source ws_env/bin/activate
+```
+
 ## Importing the HTML data as read mode
 
 ```python
+# URL source path
 html_path = "/Users/ASUS/Library/CloudStorage/OneDrive-Personal/Desktop/Personal project/Python Web Scraping/Apple store web scraping/apple_store.html"
 
 with open(html_path, 'r') as html_file:

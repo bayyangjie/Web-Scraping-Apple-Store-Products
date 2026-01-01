@@ -95,5 +95,5 @@ print("Congratulations data scrapped and save successsfully")
 
 
 ## Conclusion
-Once the data has been scrapped and exported out as a CSV file, the data can then be used for analysis. AS scrapped data may not always be in the desired state to be ready for analysis, data processing steps such as transformation and cleaning  still need to be performed according to the needs of the analysis.
+Once the data has been scrapped and exported out as a CSV file, the data can then be used for analysis. As scrapped data may not always be in the desired state to be ready for analysis, data processing steps such as transformation and cleaning  still need to be performed according to the needs of the analysis.
 

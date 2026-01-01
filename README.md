@@ -46,7 +46,7 @@ header = soup.find('h1').text.strip()
 ```
 
 ## Extracting URLs 
-URL links in the page are extracted by identifying all <a> tags using 'find_all()' . A for loop is then used to iterate through the tags and print out the 'href' attribute of each <a> tag that defines what the URL is pointing to.
+URL links in the page are extracted by identifying all `<a>` tags using 'find_all()' . A for loop is then used to iterate through the tags and print out the 'href' attribute of each `<a>` tag that defines what the URL is pointing to.
 
 ```python
 menus = soup.find_all('a', href=True)   # filters only the <a> tags with href attributes
@@ -57,22 +57,22 @@ for menu in menus:
 ## Extracting individual product details
 Details of each product such as product name, price, available quantity and shipping duration are extracted here. 
 
-The main <div> tags are identified first together with the "class" attribute type to narrow down the type of <div> tags we are looking for.
+The main `<div>` tags are identified first together with the "class" attribute type to narrow down the type of `<div>` tags we are looking for.
 
 ```python
 products_divs = soup.find_all('div',  class_="product")
 ```
 
 ## Create new csv file and write the product details in
-Identifying the different <p> tags in each <div> container of each product. The <p> tags contain the descriptive info of each product. 
+Identifying the different `<p>` tags in each `<div>` container of each product. The `<p>` tags contain the descriptive info of each product. 
 
-Either list indexing [] or by attribute is used to identify the <p> tags in each container.
+Either list indexing [] or by attribute is used to identify the `<p>` tags in each container.
 
 ```python
 with open('apple_products.csv', 'w') as file_csv:     # 'w' is to write/replace existing data
     writer = csv.writer(file_csv)    # create a new file if none exists and write rows in csv format
     
-    # Defining/Creating the headers
+    # Defining/Creating the headers'
     writer.writerow(['product_name', 'price', 'qty_left', 'ratings', 'est'])
 
     # Getting the data

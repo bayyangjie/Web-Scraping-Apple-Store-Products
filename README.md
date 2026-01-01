@@ -8,7 +8,7 @@ Beautiful Soup is used for reading the html content from the site and convert th
 Used Visual Studio extension 'Live Server' to view the actual webpage after loading the html file "apple_store.html" in Visual Studio.
 
 ## Creating a virtual environment 
-A virtual environment (venv) is created for working within that space for the project. Libraries/dependencies are all stored inside this space specifically for the project only. 
+A virtual environment (venv) is created for working within that space for the project. Libraries/dependencies are all installed specifically for the project only. 
 
 ```python
 # Create virtual environment
